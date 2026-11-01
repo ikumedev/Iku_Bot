@@ -1,0 +1,449 @@
+body{
+
+    background-color: rgb(245, 255, 227);
+}
+
+
+
+.pannel{
+
+    width: 30vw;
+    height: 20vw;
+    background-color: white;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 15vw;
+    align-items: center;
+    justify-content: center;
+    left: 2vw;
+
+}
+
+.main{
+
+    width: 12vw;
+    height: 3vw;
+    border-radius: 12px;
+    background-color: darkolivegreen;
+    border-width: 24px;
+    border-color: rgb(39, 49, 22);
+    position: absolute;
+    bottom: 7vw;
+    left:2vw;
+
+    
+
+
+}
+
+h1{
+    padding-bottom: 2vw;
+
+    color:  rgb(15, 19, 8);
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    left: 4vw;
+    text-decoration: none;
+    translate: all ease 0.5s;
+    font-size: 3vw;
+
+
+}
+
+h1:hover{
+
+    text-decoration: underline;
+
+}
+
+
+p{
+   
+    color:darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    padding-top: 5vw;
+    font-size: 1.2vw;
+}
+
+b{
+    
+    color:  rgb(15, 19, 8);
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration:dotted;
+}
+
+.one{
+    font-size: 1vw;
+    position: absolute;
+    left: 1.2vw;
+    bottom: 0.8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+     color: rgb(245, 255, 227);
+}
+
+.box1{
+
+    width: 30vw;
+    height: 30vw;
+    background-color:  rgb(15, 19, 8);
+    position: absolute;
+    right: 25vw;
+    bottom: 5vw;
+}
+
+.box2{
+
+    width: 10vw;
+    height: 20vw;
+    background-color: darkolivegreen;
+    position: absolute;
+    right: 13vw;
+    bottom: 5vw;
+}
+
+.ball1{
+
+    width:8vw;
+    height: 8vw;
+    background-color: darkolivegreen;
+    border-radius: 50%;
+    animation: up 5000ms infinite alternate ease;
+}
+
+.time{
+
+    gap: 8vw;
+    display: flex;
+    position: absolute;
+    right: 14vw;
+    bottom: 15vw;
+
+
+}
+
+@keyframes up{
+    100% {transform: translateY(-15vw)}
+}
+
+ .ball1:nth-child(1){
+        animation-delay: -1000ms
+ }
+
+ .ball1:nth-child(2){
+        animation-delay: -2000ms
+ }
+
+ .ball1:nth-child(3){
+        animation-delay: -3000ms
+ }
+
+ 
+ .pannel1{
+
+    width: 30vw;
+    height: 35vw;
+    background-color: white;
+    border-radius: 24px;
+    position: absolute;
+    bottom: 2vw;
+    left: 2vw;
+ }
+
+ .imp{
+    left: 3vw;
+ }
+
+ .pie{
+    width:40vw;
+    height: 40vw;
+    background-color: white;
+    border-radius: 24px;
+    position: absolute;
+    right:10vw;
+    align-items: center;
+    display: none;
+  
+ }
+
+
+ h2{
+
+    font-size: 4vw;
+    position: relative;
+    left: 9vw;
+
+
+ }
+
+ .equ{
+    position: absolute;
+    left:17vw;
+ }
+
+ .pieans{
+    width: 12vw;
+    height: 3vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+
+     position: absolute;
+     left:13.5vw;
+     
+ }
+
+ .piebut{
+    font-size: 1vw;
+
+    position: relative;
+    left:17vw;
+    bottom: -6vw;
+    border: none;
+    width: 6vw;
+    height: 3vw;
+    background-color: darkolivegreen;
+    border-radius: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    transition: all  0.3s ease;
+
+
+
+
+
+ }
+
+ .piebut:hover{
+
+    background-color: rgba(85, 107, 47, 0.575);
+  
+    
+ }
+
+ .pieui{
+
+    position: absolute;
+    left: 9vw;
+    bottom:7vw;
+ 
+ }
+ 
+.boarder1{
+    width:40vw;
+    height: 40vw;
+    background-color: white;
+    border-radius: 24px;
+    position: absolute;
+    right:10vw;
+    display: none;
+   
+  
+ }
+
+.boarder2{
+
+    width:40vw;
+    height: 40vw;
+    background-color: white;
+    border-radius: 24px;
+    position: absolute;
+    right:10vw;
+    display: none;
+    
+}
+
+.boarder3{
+
+    width:40vw;
+    height: 40vw;
+    background-color: white;
+    border-radius: 24px;
+    position: absolute;
+    right:10vw;
+   display: none;
+    
+}
+
+
+.close{
+    position: absolute;
+
+    height: 2vw;
+    width:2vw;
+    background-color:  rgb(15, 19, 8);
+    border-radius: 10px;
+    left: auto;
+    margin: 2vw;
+    transition: all 0.5s ease;
+}
+
+.close:hover{
+
+    background-color:  darkolivegreen;
+    border-radius: 5px;
+
+}
+
+
+.app{
+
+    width: 4vw;
+    height: 4vw;
+    background-color: rgb(15, 19, 8);
+    border-radius: 24px;
+    position: absolute;
+    bottom: 27vw;
+    left: 7vw;
+
+}
+
+
+.app1{
+
+    width: 4vw;
+    height: 4vw;
+    background-color: rgba(15, 19, 8, 0.781);
+    border-radius: 24px;
+    position: absolute;
+    bottom: 19vw;
+    left: 7vw;
+}
+
+.app2{
+
+    width: 4vw;
+    height: 4vw;
+    background-color: rgba(15, 19, 8, 0.603);
+    border-radius: 24px;
+    position: absolute;
+    bottom: 11vw;
+    left: 7vw;
+}
+
+
+.app3{
+
+    width: 4vw;
+    height: 4vw;
+    background-color: rgba(79, 100, 42, 0.377);
+    border-radius: 24px;
+    position: absolute;
+    bottom: 3vw;
+    left: 7vw;
+}
+
+.app{
+    transition: all 0.5s ease;
+}
+
+.app:hover{
+
+    border-radius: 4px;
+    background-color: darkolivegreen;
+}
+
+
+.app1{
+    transition: all 0.5s ease;
+}
+
+.app1:hover{
+
+    border-radius: 4px;
+    background-color: darkolivegreen;
+}
+
+.app2{
+    transition: all 0.5s ease;
+}
+
+.app2:hover{
+
+    border-radius: 4px;
+    background-color: darkolivegreen;
+}
+
+
+.app3{
+    transition: all 0.5s ease;
+}
+
+.app3:hover{
+
+    border-radius: 4px;
+    background-color: darkolivegreen;
+}
+
+.peak{
+
+    left:6vw;
+    font-size: 3.5vw;
+}
+
+.world{
+
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:12vw;
+    top: 1.5vw;
+    
+    
+    
+}
+
+.world2{
+
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:12vw;
+    top: 10.5vw;
+    font-weight: bolder;
+    
+    
+    
+}
+
+
+.world3{
+
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:12vw;
+    top: 17.5vw;
+    
+    
+    
+}
+
+
+.world4{
+
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left:12vw;
+    top: 25.5vw;
+
+    
+    
+}
+
+
+
+
+
+
+.things{
+    display: grid;
+    gap:8vw;
+    left:6vw;
+}
